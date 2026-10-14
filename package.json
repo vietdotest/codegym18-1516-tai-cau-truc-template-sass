@@ -1,0 +1,13 @@
+{
+  "name": "codegym18-1516-tai-cau-truc-template-sass",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "sass --no-source-map scss/main.scss css/style.css",
+    "build:min": "sass --no-source-map --style=compressed scss/main.scss css/style.min.css",
+    "watch": "sass --watch scss/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "1.105.1"
+  }
+}

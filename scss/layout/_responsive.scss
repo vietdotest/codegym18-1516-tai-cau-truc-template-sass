@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+html{scroll-behavior:smooth;scroll-padding-top:80px}body{padding-top:52px;line-height:1.6;background:#f6f8fa}.header{min-height:430px;display:flex;justify-content:center;align-items:center}.btn{display:inline-block}.navbar a{display:block}.navbar{padding:0}.content{max-width:1200px;margin:auto;padding:50px 24px}.card-container{padding:20px 0}.card img{height:180px;object-fit:cover}.footer{gap:20px;align-items:center}.footer>div{flex:1}@media(max-width:767px){.navbar ul li{margin:0}.navbar ul li a{font-size:15px;padding:14px 10px}.card-container{grid-template-columns:1fr}.content{padding:35px 20px}.footer{flex-direction:column}.header h1{font-size:2rem}.card:hover{transform:translateY(-4px)}}
+
+.statistics{max-width:1200px;margin:0 auto;padding:30px 24px;text-align:center}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.stat{background:v.$light;@include m.surface-shadow;border-radius:v.$card-radius;padding:20px}.stat strong{display:block;font-size:2rem;color:v.$primary}.stat span{display:block}@media(max-width:767px){.stats-grid{grid-template-columns:1fr}}

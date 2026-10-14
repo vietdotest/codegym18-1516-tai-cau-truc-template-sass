@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: v.$footer-background;
+    color: v.$light;
+    text-align: center;
+}
+
